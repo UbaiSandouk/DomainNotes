@@ -1,0 +1,23 @@
+<!doctype html>
+<html id="container">
+  <head>
+    <title>PageNote</title>
+    <script src="popup.js"></script>
+	 <style> #container{ width:395px; } </style>
+  </head>
+  <body>
+	<table><tr><td>
+	<i>Page: </i><span id="pageTitle"></span><br />
+	<textarea id="pageNotes" rows="4" cols="50">Notes</textarea>
+	<div align="right"><a id="removePageNote" href='#'>remove</a></div>
+	</td></tr><tr><td>
+	<i>Domain: </i><span id="domainTitle"></span><br />
+	<textarea id="domainNotes" rows="4" cols="50">Notes</textarea>
+	<div align="right"><a id="removeDomainNote" href='#'>remove</a></div>
+	</td></tr><tr><td>
+	<i>Persistent: </i><span id="GeneralTitle"></span><br />
+	<textarea id="generalNotes" rows="4" cols="50">Notes</textarea>
+	<div align="right"><a id="removeGeneralNote" href='#'>remove</a></div>
+	</td></tr></table>
+  </body>
+</html>

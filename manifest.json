@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "PageNote",
+  "description": "This extension will remember your page-related notes",
+  "version": "1.0",
+"background": {
+   "scripts": ["background.js"]
+},
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html",
+   "default_title": "DomainNotes"
+  },
+  "permissions": [
+   "activeTab",
+   "storage"
+   ]
+}
